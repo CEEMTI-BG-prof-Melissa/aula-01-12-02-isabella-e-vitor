@@ -13,7 +13,17 @@
 
         echo "Meu nome é" .$nome; 
         echo " <br> Meu nome é $nome";
+
         echo " <br> <br> A soma de $numero1 e $numero2 é: $soma";
+
+        echo "<br> <br> A subtração dos números $numero1 e $numero2 é igual a: " .($numero1 - $numero2) ".";
+
+        echo "<br> <br> A multiplicação dos números $numero1 e $numero2 é igual a: " .($numero1 * $numero2)".";
+
+        echo "<br> <br> A divisão dos números $numero1 e $numero2 é igual a: " .($numero1 / $numero2) ".";
+
+        echo "<br> <br> O resto da divisão dos númros $numero1 e $numero2 é igual a: " .($numero1 % $numero2) ".";
+        
     ?> 
     </body>
 </html>
